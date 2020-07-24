@@ -2,11 +2,10 @@
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day01/input'
-    nums = load(input_file)
+    nums = load('/home/david/Documents/Programs/Advent_Code/2018/day01/input')
     repeat = find_repeat(nums)
     print(f'Part One: {sum(nums)}')
-    print(f'Part One: {repeat}')
+    print(f'Part Two: {repeat}')
 
 def load(file_name):
     ''' Load the numbers from the file represented by 'file_name' into a list.

@@ -13,7 +13,7 @@ class Guard:
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day04/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day04/input'
     records = organize(input_file)
     guards = load_guards(records)
     max_guard = max(guards, key=lambda x: x.sleep)

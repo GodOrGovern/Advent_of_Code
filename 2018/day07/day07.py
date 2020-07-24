@@ -15,7 +15,7 @@ class Node:
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day07/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day07/input'
     nodes = [build_tree(input_file), build_tree(input_file)]
     order = get_order(nodes[0])
     order = ''.join([chr(node.name + 65) for node in order])

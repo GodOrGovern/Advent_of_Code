@@ -2,7 +2,7 @@
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day02/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day02/input'
     print(f'Part One: {checksum(input_file)}')
     print(f'Part Two: {similar(input_file)}')
 

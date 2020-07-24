@@ -5,7 +5,7 @@ import numpy as np
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day03/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day03/input'
     vals = load(input_file)
     matrix = fill(vals)
     print(f'Part One: {len(matrix[matrix >= 2])}')

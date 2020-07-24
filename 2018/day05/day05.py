@@ -4,7 +4,7 @@ import re
 
 def main():
     ''' Driver function '''
-    data = open('input', 'r')
+    data = open('/home/david/Documents/Programs/Advent_Code/2018/day05/input')
     polymer = data.readline().rstrip()
     print(f'Part One: {check(polymer)}')
     print(f'Part Two: {remove(polymer)}')

@@ -16,7 +16,7 @@ class Node:
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day08/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day08/input'
     nums = load_data(input_file)
     checksum, root = load_nodes(nums)
     print(f'Part One: {checksum}')

@@ -4,9 +4,8 @@ import re
 
 def main():
     ''' Driver function '''
-    coordinates = load('input')
+    coordinates = load('/home/david/Documents/Programs/Advent_Code/2018/day23/input')
     print(f'Part One: {nanobots(coordinates)}')
-    print(coordinates)
 
 def load(file_name):
     ''' Loads coordinates from 'file_name' into array. The format is a list

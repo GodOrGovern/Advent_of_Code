@@ -2,7 +2,7 @@
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day12/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day12/input'
     rule, current = load_data(input_file)
     print(f'Part One: {plant_sum(20, rule, current)}')
     gens = 5*10**10
@@ -20,7 +20,7 @@ def load_data(file_name):
 
 def plant_sum(gens, rule, current):
     ''' Find sum of cells that are turned on after gens iterations '''
-    for x in range(gens):
+    for _ in range(gens):
         current = find_next_gen(rule, '..'+current+'..')
     total = 0
     for index, state in enumerate(current):

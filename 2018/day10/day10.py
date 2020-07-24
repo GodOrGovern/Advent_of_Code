@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day10/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day10/input'
     points = load_data(input_file)
     seconds = 10905 # answer to Part Two
     xs, ys = pos_after(points, seconds)

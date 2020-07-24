@@ -4,7 +4,7 @@ import numpy as np
 
 def main():
     ''' Driver function '''
-    input_file = '/home/david/Documents/Programs/Advent_Code/day06/input'
+    input_file = '/home/david/Documents/Programs/Advent_Code/2018/day06/input'
     points = load(input_file)
     grid, safe = fill(points)
     size = check(grid, points)
